@@ -36,10 +36,6 @@ public class SaleService {
 			return result.map(x -> new SaleDTO(x));
 		} else {
 
-			if (name == null) {
-				name = "";
-			}
-
 			LocalDate initialDate;
 			LocalDate finishDate;
 
